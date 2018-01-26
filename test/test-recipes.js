@@ -39,7 +39,6 @@ describe('Recipes', function() {
 					expect(item).to.be.a('object');
 					expect(item).to.include.keys(expectedKeys);
 				});
-
 			});
 	});
 
@@ -82,7 +81,7 @@ describe('Recipes', function() {
 
 			.then(function(res) {
 				expect(res).to.have.status(200);
-				expect(res).to.be.json;
+				//expect(res).to.be.json;
 				expect(res.body).to.be.a('object');
 				expect(res.body).to.deep.equal(updateData);
 			});
@@ -91,10 +90,10 @@ describe('Recipes', function() {
 	//DELETE test
 	it('should delete an item (recipe) on DELETE', function() {
 		return chai.request(app)
-			.get('recipes')
+			.get('/recipes')
 			.then(function(res) {
 				return chai.request(app)
-					.delete(`recipes/${res.body[0].id}`);
+					.delete(`/recipes/${res.body[0].id}`);
 			})
 			.then(function(res) {
 				expect(res).to.have.status(204);
