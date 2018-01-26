@@ -4,7 +4,7 @@ deploy:
   provider: heroku
   api_key:
     secure: w8pTHF2DDrT+kdePlwlCk3rC0LYF9JMwsMUlscc5dHWEdropuv+FDIQw40yYohOOUOzxmyIehg9xQenhxMKXU2Sdhb2HknQYFGrZAxLE0/Z6//Ue8i3Yo1hrpdwg+N1yPNzeecaw29FroLeZsHeIGc7jm+nFz/3Rg2gb1AE7hEZ+/CxVWokt6ylHEMUmEaVN5SWAbYeVx2Ms+33WN/9z8ANknO1ICnJ/EeA5RECPIyX8opB8WQ0fsScZot5VCxTLDRe0BKH9vhiKbg1HumtgvRaxXYMD6MiZ6hKvyBlFonecVbANLqcmiyxLcWmYDTDygC552J57ICHoTaO1rH9dFeBZhaWhjP2O5ricdFhpD14LRrnHjPXMd9wyxBRi6NUXQNGUj5A8QjCODjAk+MLPOfq1jugVbgOk3vHww5RwQqKS31HKenqnYymiUCYYuZnvha7yL34T9YzrjYrR+WUhTxeu/X+jJL2mgCj4aBdzHMk+keQX5hHHtwMkQPJOnOsFgMacaDnHbBSpj+eYcIURkjB1sXhwQ+wK3u6aS5rNKrDo3J7dYitR6b1H3DUEDubwjlO5CnlrXZwJJlzFnydrLUpSinTwaZjVG0u+oqZsoFoSbx+Zns3AgMnpYXSvgu5nkLMdDrNnT6U0c5gE1eyGkmlRqEx1IHoUNeIJ7mZajzU=
-  app: https://safe-mountain-25540.herokuapp.com/
+  app: safe-mountain-25540
   on:
     repo: fulgonim/node-shopping-list-integration-tests
     branch: tests-for-recipes
